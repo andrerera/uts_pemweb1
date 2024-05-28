@@ -1,0 +1,227 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+
+/*### IMAGE ###*/
+.pricing-table .details .img {
+    background-color: white;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+img{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+/*### Hyperlink Button ###*/
+.pricing-table .details .button button {
+    width: 100%;
+    margin: 8px 0px 0px;
+    padding: 15px;
+    background: linear-gradient(to bottom, #3a7bd5, #3a6073);
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pricing-table .details .button button a {
+    text-decoration: none;
+    color: #fff;
+}
+.pricing-table .details .button button:hover{
+    background: #45778d;
+    color: #eee;
+}
+
+/* #### LIST ITEM #### */
+.box-list ul{
+    position: relative;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.box-list ul li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 15px;
+    color: #555;
+    background: #fff;
+    box-shadow: 0 5px 13px rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    transition: transform 0.5s;
+}
+.box-list ul li:hover{
+    transform: scale(1.1);
+    z-index: 100;
+    background: #25bcff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.box-list ul li span {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #25bcff;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right:10px ;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+/*### table ###*/
+.pricing-table{
+    background: #f8f8f8;
+    padding: 40px 20px;
+}
+.pricing-table .details {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.pricing-table .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px 0px;
+    padding: 9px;
+    border-radius: 20px;
+}
+.pricing-table .grid .box {
+    width: 250px;
+    border: 1px solid #eee;
+    text-align: center;
+    padding-bottom: 20px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 3px rgba(0,0,0,0.02);
+}
+.pricing-table .grid .box .title {
+    padding: 20px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.pricing-table .grid .box.start {
+    color: #0fdfd4;
+}
+
+.pricing-table .grid .box.start .title {
+    color: #eee;
+    background: #0fdfd4;
+}
+.pricing-table .grid .box.start .features span{
+    color: #0fdfd4;
+}
+
+.pricing-table .grid .box.pro {
+    color: #3a6073;
+}
+
+.pricing-table .grid .box.pro .title {
+    color: #eee;
+    background: #3a6073;
+}
+.pricing-table .grid .box.pro .features span{
+    color: #3a6073;
+}
+
+.pricing-table .grid .box.ultimate {
+    color: #f77700;
+}
+
+.pricing-table .grid .box.ultimate .title {
+    color: #eee;
+    background: #f77700;
+}
+.pricing-table .grid .box.ultimate .features span{
+    color: #f77700;
+}
+
+.pricing-table .grid .box .price {
+    margin-bottom: 20px;
+}
+.pricing-table .grid .box .price b {
+    display: block;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.pricing-table .grid .box .features > * {
+    padding: 8px 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.pricing-table .grid .box .features span {
+    font-size: 20px;
+    font-weight:900;
+}
+.pricing-table .grid .box .button{
+    padding: 20px 20px;
+    margin: 10px 15px 0 15px;
+}
+.pricing-table .grid .box .button button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to bottom, #3a7bd5, #3a6073);
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pricing-table .grid .box.start .button button {
+    background: #0fdfd4;
+    color: #fff ; 
+}
+.pricing-table .grid .box.pro .button button {
+    background: #3a6073;
+    color: #fff ; 
+}
+.pricing-table .grid .box.ultimate .button button {
+    background: #f77700;
+    color: #fff ; 
+}
+
+.pricing-table .grid .box .button button:hover {
+    opacity: 70%;
+}
+
+/*### Paragraf ###*/    
+.pricing-table .details h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.pricing-table .details p {
+    font-size: 15px;
+}
+.pricing-table .details .p1{
+    color: #5555;
+}
+.pricing-table .details .p2{
+    color: #76b5c5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*untuk responsive*/
+@media (max-width:800px){
+    .pricing-table .grid {
+        gap: 20px;
+    }
+}
